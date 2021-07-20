@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad249225c92423948b045b0f378a92eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _EnvironmentType: 1
+  _EnvironmentType: 0
   _Environments:
   - {fileID: 11400000, guid: dbba17bbee11c5f4bb748e9632f61b0d, type: 2}
   - {fileID: 11400000, guid: 8146979ba29b09043826eb69d87ca01f, type: 2}
