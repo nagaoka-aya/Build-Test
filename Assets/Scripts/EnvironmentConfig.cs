@@ -7,6 +7,8 @@ public class EnvironmentConfig : MonoBehaviour
     [SerializeField] EnvironmentType _EnvironmentType;
     [SerializeField] List<Environment> _Environments;
 
+    public EnvironmentType EnvironmentType { get { return this._EnvironmentType; } set { this._EnvironmentType = value; }  }
+
     private static EnvironmentConfig _SINGLETON;
 
     private void Awake()
